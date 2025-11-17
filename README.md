@@ -65,6 +65,18 @@ MySQL (base de datos) → Se implementará cuando el proyecto avance
 
 AWS → Previsto para su despliegue oficial a futuro
 
+🎯 Objetivos: 
+
+Simular paso a paso el recorrido de un viajero dentro del aeropuerto.
+
+Desarrollar un panel interactivo para el usuario viajero usando HTML, CSS y JavaScript.
+
+Implementar un panel para el administrador que permita visualizar y gestionar información del proceso.
+
+Integrar documentación del proyecto para uso académico dentro de la asignatura.
+
+Proponer tecnologías futuras (Java, MySQL, AWS) para el desarrollo completo del sistema.
+
 📝 Estado Actual del Proyecto
 
 Este repositorio contiene la presentación oficial y el prototipo funcional del proyecto para la asignatura.
