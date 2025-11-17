@@ -74,8 +74,27 @@ Con el fin de evitar confusiones académicas entre los lectores, en esta etapa s
 
 Juan José Restrepo
 Estudiante de Tecnología en Desarrollo de Software
-Universidad (nombre de la universidad) – Colombia
+Universidad Tecnológica de Pereira, Colombia.
 
+Cómo ejecutarlo
+
+1. Instala dependencias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Abre dos terminales:
+
+   **Terminal 1 (Viajero):**
+   ```bash
+   streamlit run viajero_app.py
+   ```
+
+   **Terminal 2 (Admin):**
+   ```bash
+   streamlit run admin_app.py
+   ```
+   
 📄 Licencia
 
 Este proyecto está bajo la licencia MIT, lo que permite usar, modificar y distribuir el contenido siempre que se otorgue el debido crédito al autor.
