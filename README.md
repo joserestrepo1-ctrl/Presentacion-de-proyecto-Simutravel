@@ -9,15 +9,9 @@ Viajero
 
 Administrador
 
-🎯 Objetivo del Proyecto
+🎯 Objetivo general
 
-Desarrollar, por medio de HTML, cómo se verían dos paneles principales:
-
-Panel del Viajero
-
-Panel del Administrador
-
-Ambos prototipos permiten visualizar la estructura funcional y visual del proyecto final.
+Diseñar un prototipo interactivo que simule el proceso aeroportuario mediante dos paneles principales: uno para el viajero y otro para el administrador.
 
 📂 Contenido del Repositorio
 📁 Presentación del Proyecto
@@ -65,7 +59,7 @@ MySQL (base de datos) → Se implementará cuando el proyecto avance
 
 AWS → Previsto para su despliegue oficial a futuro
 
-🎯 Objetivos: 
+🎯 Objetivos específicos: 
 
 Simular paso a paso el recorrido de un viajero dentro del aeropuerto.
 
