@@ -20,7 +20,7 @@ Archivo con la explicación general del proyecto, propósitos, justificación y 
 
 📁 Carpeta Data
 
-Recursos y material de apoyo utilizados para la documentación.
+Recursos y material de apoyo utilizados para la documentación. Data.json
 
 📁 Carpeta Proyectos
 
