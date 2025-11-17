@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>SimuTravel - Portal del Viajero</title>
+<link rel="stylesheet" href="Viajero.css">
+</head>
+<body>
+
+<header>
+  <img src="c:\Users\juaj4\Downloads\LogoSimutravel.png" id="logo">
+  <h1>SimuTravel - Portal del Viajero</h1>
+</header>
+
+<nav>
+  <button onclick="mostrar('inicio')">Inicio</button>
+  <button onclick="mostrar('buscar')">Buscar Vuelos</button>
+  <button onclick="mostrar('checkin')">Check-in</button>
+  <button onclick="mostrar('contacto')">Contacto</button>
+</nav>
+
+<section id="contenido">
+
+  <!-- INICIO -->
+  <div id="inicio" class="pagina">
+    <h2>Bienvenido viajero ✈️</h2>
+    <p>Aquí puedes buscar vuelos, hacer check-in y contactar soporte.</p>
+  </div>
+
+  <!-- BUSCAR -->
+  <div id="buscar" class="pagina" style="display:none;">
+    <h2>Buscar Vuelos</h2>
+
+    Origen: <input type="text" id="origen"><br><br>
+    Destino: <input type="text" id="destino"><br><br>
+    Fecha: <input type="date" id="fecha"><br><br>
+    <button onclick="buscarVuelos()">Buscar</button>
+
+    <div id="resultados"></div>
+  </div>
+
+  <!-- CHECKIN -->
+  <div id="checkin" class="pagina" style="display:none;">
+    <h2>Check-in</h2>
+    Nombre pasajero: <input type="text" id="checkNombre"><br><br>
+    Código de reserva: <input type="text" id="checkCodigo"><br><br>
+    <button onclick="hacerCheckin()">Confirmar</button>
+
+    <div id="checkinRespuesta"></div>
+  </div>
+
+  <!-- CONTACTO -->
+  <div id="contacto" class="pagina" style="display:none;">
+    <h2>Contáctanos</h2>
+    <textarea id="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea><br><br>
+    <button onclick="enviarContacto()">Enviar</button>
+
+    <div id="contactoRespuesta"></div>
+  </div>
+
+</section>
+
+<footer>© 2025 SimuTravel</footer>
+
+<script src="Viajero.js"></script>
+</body>
+</html>

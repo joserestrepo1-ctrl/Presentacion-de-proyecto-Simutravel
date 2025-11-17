@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>SIMUtravel - Panel Administrador</title>
+<link rel="stylesheet" href="Admin.css">
+</head>
+<body>
+
+<header id="cabecera">
+  <img id="logo" src="c:\Users\juaj4\Downloads\LogoSimutravel.png">
+  <h1>Panel del Administrador</h1>
+</header>
+
+<aside id="lateral">
+  <ul>
+    <li onclick="mostrar('dashboard')">🏠 Dashboard</li>
+    <li onclick="mostrar('pasajeros')">🧍 Pasajeros</li>
+    <li onclick="mostrar('vuelos')">✈️ Vuelos</li>
+    <li onclick="mostrar('reservas')">📄 Reservas</li>
+    <li onclick="mostrar('notificacionesPanel')">🔔 Notificaciones</li>
+  </ul>
+</aside>
+
+<section id="principal">
+
+  <!-- DASHBOARD -->
+  <div id="dashboard" class="contenido">
+    <h2>Bienvenido Administrador</h2>
+    <p>Seleccione una opción del menú.</p>
+  </div>
+
+  <!-- PASAJEROS -->
+  <div id="pasajeros" class="contenido" style="display:none">
+    <h2>Pasajeros</h2>
+    <input type="text" id="nuevoPasajero" placeholder="Nombre del pasajero">
+    <button onclick="agregarPasajero()">Agregar</button>
+    <ul id="listaPasajeros"></ul>
+  </div>
+
+  <!-- VUELOS -->
+  <div id="vuelos" class="contenido" style="display:none">
+    <h2>Vuelos</h2>
+    <input type="text" id="nuevoVuelo" placeholder="ID vuelo (Ej: AV2025)">
+    <button onclick="agregarVuelo()">Agregar</button>
+    <ul id="listaVuelos"></ul>
+  </div>
+
+  <!-- RESERVAS -->
+  <div id="reservas" class="contenido" style="display:none">
+    <h2>Reservas</h2>
+    <input type="text" id="resPasajero" placeholder="Nombre pasajero">
+    <input type="text" id="resVuelo" placeholder="ID Vuelo">
+    <button onclick="agregarReserva()">Reservar</button>
+    <ul id="listaReservas"></ul>
+  </div>
+
+  <!-- NOTIFICACIONES -->
+  <div id="notificacionesPanel" class="contenido" style="display:none">
+    <h2>Historial de Notificaciones</h2>
+    <ul id="historialNotificaciones"></ul>
+  </div>
+
+</section>
+
+<footer id="pie">© 2025 SIMUtravel | Admin Panel</footer>
+
+<!-- Notificación flotante -->
+<div id="notification" class="notification hidden"></div>
+
+<script src="Admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#e9f2f7;
+}
+
+header{
+  background:#0E4166;
+  color:white;
+  text-align:center;
+  padding:15px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  justify-content:center;
+}
+
+#logo{
+  height:45px;
+}
+
+nav{
+  background:#145da0;
+  padding:10px;
+  text-align:center;
+}
+
+nav button{
+  padding:8px 15px;
+  margin:5px;
+  border:none;
+  background:#6CC24A;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+nav button:hover{
+  background:#58a63d;
+}
+
+#contenido{
+  margin:25px auto;
+  width:70%;
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2{
+  color:#08304D;
+}
+
+textarea{
+  width:80%;
+  height:100px;
+}
+
+footer{
+  background:#0E4166;
+  color:white;
+  text-align:center;
+  padding:10px;
+  margin-top:25px;
+}
